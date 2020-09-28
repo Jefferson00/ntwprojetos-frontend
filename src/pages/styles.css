@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font: 1.6rem Roboto, sans-serif;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+  }
+
+  img{
+    max-width: 100%;
+    display: block;
+  }
+
+  ul, li, a{
+    list-style: none;
+    text-decoration: none;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+  #page-login{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+
+  form fieldset{
+      display: flex;
+      border: none;
+  }
+
+  form label{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3C3C3C;
+    margin-top: 25px;
+  }
+
+  form input{
+    border: 1px solid #616161;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 345px;
+    height: 33px;
+  }
+
+  .btn{
+    border-radius: 5px;
+    color: #ffffff; 
+    width: 345px;
+    height: 33px;
+    cursor: pointer;
+    transition: background 0.4s;
+  }
+
+  .btn.login{
+    background: #0060A5;
+  }
+
+  .btn.login:hover{
+    background: #01406d;
+  }
+
+  .btn.cad{
+    background: #3C3C3C;
+  }
+
+  .btn.cad:hover{
+    background: #292929;
+  }
+
